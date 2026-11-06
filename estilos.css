@@ -11,27 +11,28 @@ nav#menu ol {
     top: 0px;
     right: 60px;
     display: flex;
+    justify-content: end;
+        align-items: center;
+
 }
 
 nav#menu li {
-  
     padding: 10px;
     margin: 3px;
     transition: background-color 0.5s, transform 0.2s;
+    justify-content: end;
+        align-items: center;
 }
 
 nav#menu li:hover {
-    background-color: darkgray;
+    background-color: rgb(152, 170, 209);
+    border-radius: 5px;
 }
 
 nav#menu a {
-    color: black;
+    color:#123b67;
     text-decoration: none;
-}
-
-nav#menu a:hover {
-    color: white;
-
+        align-items: center;
 }
 
 .titulo-banner{
@@ -42,9 +43,19 @@ nav#menu a:hover {
     font-size: 20px;
     color: #EAF2F9;
 }
-.header{
-    background-color: #123b67;
+div.topo{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EAF2F9;
+    color:#123b67;
+    width: 100%;
+    padding: 1.5 rem, 2.5 rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
 }
-.menu{}
-
+*{
+    margin: 0px;
+    padding: 1px;
+    box-sizing: border-box;
+}
