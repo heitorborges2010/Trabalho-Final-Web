@@ -1,8 +1,50 @@
 @charset "UTF-8"
-body#corpo {
-    background: url("imagens/placas1.webp");
+
+nav#menu h3 {
+    display: none;
 }
 
-header#cabecalho {
-    border-bottom: solid 2px gray;
+nav#menu ol {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0px;
+    right: 60px;
 }
+
+nav#menu li {
+    display: inline-block;
+    background-color: lightgray;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 10px;
+    transition: background-color 2s, transform 1s;
+}
+
+nav#menu li:hover {
+    background-color: darkgray;
+    transform: rotateZ(-15deg);
+}
+
+nav#menu a {
+    color: black;
+    text-decoration: none;
+}
+
+nav#menu a:hover {
+    color: white;
+    text-decoration: underline;
+}
+body{
+    background-color: burlywood;
+}
+
+.titulo-banner{
+    font-size: 40px;
+    color: #EAF2F9;
+}
+.subtitulo-banner{
+    font-size: 20px;
+    color: #EAF2F9;
+}
+
