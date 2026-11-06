@@ -1,0 +1,8 @@
+@charset "UTF-8"
+body#corpo {
+    background: url("imagens/placas1.webp");
+}
+
+header#cabecalho {
+    border-bottom: solid 2px gray;
+}
