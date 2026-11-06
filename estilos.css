@@ -10,20 +10,18 @@ nav#menu ol {
     position: absolute;
     top: 0px;
     right: 60px;
+    display: flex;
 }
 
 nav#menu li {
-    display: inline-block;
-    background-color: lightgray;
+  
     padding: 10px;
     margin: 3px;
-    border-radius: 10px;
-    transition: background-color 2s, transform 1s;
+    transition: background-color 0.5s, transform 0.2s;
 }
 
 nav#menu li:hover {
     background-color: darkgray;
-    transform: rotateZ(-15deg);
 }
 
 nav#menu a {
@@ -33,10 +31,7 @@ nav#menu a {
 
 nav#menu a:hover {
     color: white;
-    text-decoration: underline;
-}
-body{
-    background-color: burlywood;
+
 }
 
 .titulo-banner{
@@ -47,4 +42,9 @@ body{
     font-size: 20px;
     color: #EAF2F9;
 }
+.header{
+    background-color: #123b67;
+    display: flex;
+}
+.menu{}
 
