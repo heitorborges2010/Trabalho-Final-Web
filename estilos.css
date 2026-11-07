@@ -8,8 +8,40 @@
     box-sizing: border-box;
 }
 
-nav#menu h3 {
-    display: none;
+.topo{
+       display: flex;
+    flex-direction: row;
+}
+div.topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #123b67;
+    color:#EAF2F9;
+    width: 100%;
+    padding: 1.5 rem, 2.5 rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+}
+.sol{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+.titulos{
+
+    margin-right: 90%;
+    font-size: 17px;
+
+
+}
+.titulos h1{
+    font-family: 'Anton', sans-serif;
+        color: #ffc928;
+}
+.titulos p{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #EAF2F9; 
 }
 
 nav#menu ol {
@@ -39,35 +71,13 @@ nav#menu a {
         font-family: 'Josefin Sans', sans-serif;
         font-size: 17px;
         top: 30px;
+         transition: color 0.3s ease;
 }
 nav#menu a:hover {
     color: #ffc928;
 }
 
-.topo{
-       display: flex;
-    flex-direction: row;
-}
-.sol{
-    width: 50px;
-    height: 50px;
-    margin-left: 20px;
-}
-.titulos{
 
-    margin-right: 90%;
-    font-size: 17px;
-
-
-}
-.titulos h1{
-    font-family: 'Anton', sans-serif;
-        color: #ffc928;
-}
-.titulos p{
-    font-family: 'Josefin Sans', sans-serif;
-    color: #EAF2F9;
-}
 .texto-banner{
     position: absolute;
     top: 420px;
@@ -97,19 +107,6 @@ nav#menu a:hover {
     font-size: 15px;
     color: #EAF2F9;
 }
-div.topo{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #123b67;
-    color:#EAF2F9;
-    width: 100%;
-    padding: 1.5 rem, 2.5 rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
-}
-
-
 .banner{
     background-size: cover;
     height: 650px;
@@ -127,4 +124,31 @@ div.topo{
     top: 0%;
     width: 35%;
 }
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    background-color:#a8b8c963;
+    align-items: flex-start;
+    padding: 50px;
+     height: 200%;
+}
+.conteudo-principal{
+    width: 100%;
+   
+    padding: 20px;
+    background-color: #EAF2F9;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #123b67b7;
+}
+.titulo-principal{
+    color:#123b67b7;
+   font-family: 'Anton', sans-serif;
+    font-size: 32px;
+   transition: color 0.3s ease;
+}
 
+.descricao-principal{
+    color: #202B38;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+}
