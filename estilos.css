@@ -152,3 +152,32 @@ nav#menu a:hover {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 22px;
 }
+/* Tabela de Produtos */
+table.tabela-produtos {
+    position: relative;
+    width: 40%;
+    border-collapse: collapse;
+}
+caption.tabela-produtos {
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+    color: #123b67;
+    margin-bottom: 10px;
+}
+table.tabela-produtos img {
+    width: 100px;
+    height: 100px;
+    
+}
+table.tabela-produtos td {
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+table.tabela-produtos th {
+    border: 3px solid black;
+    padding: 10px;
+    border-collapse: collapse;
+    
+}
+
