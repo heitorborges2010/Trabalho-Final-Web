@@ -144,27 +144,27 @@ nav#menu a:hover {
 .titulo-principal{
     color:#123b67b7;
    font-family: 'Anton', sans-serif;
-    font-size: 42px;
+    font-size: 45px;
    transition: color 0.3s ease;
 }
 
 .descricao-principal{
     color: #202B38;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 23px;
+    font-size: 24px;
 }
 .texto-principal{
     position: relative;
-    margin-left: 2%;
-    top: 25px;
+    margin-left: 3%;
+    top: 120px;
     width: 60%;
 }
 .video{
      object-fit: cover;
     position: relative;
-    margin-left: 62%;
-    top: -150px;
-    width: 35%;
+    margin-left: 65%;
+    top: -115px;
+    width: 30%;
      display: flex;
 }
 
@@ -196,4 +196,20 @@ table.tabela-produtos th {
     border-collapse: collapse;
     
 }
-
+footer#rodape {
+    border-top: solid 2px gray;
+    text-align: center;
+    background-color: #EAF2F9;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #202B38;
+    padding: 18px 20px;
+}
+.texto-rodape{
+    padding: 5px 10px;
+    top: 50px;
+}
+.texto-rodape h5 {
+    margin: 0;
+    line-height: 1.9;
+    letter-spacing: 0.3px;
+}
