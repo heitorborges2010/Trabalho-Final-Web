@@ -277,25 +277,68 @@ table.tabela-produtos th {
 }
 .conteudo-sobre{
     display: flex;
-    flex-direction: row;
+    justify-content: center;
     background-color:#eaf2f9;
-    align-items: flex-start;
-    padding: 50px;
-     height: 200%;
-     object-fit: cover;
+    padding: 48px 6%;
+}
+.conteudo-principal-sobre{
+    width: 150%;
+    padding: 20px;
+    border-radius: 10px;
 }
 .conteudo-principal-sobre h2{
     color:#123b67b7;
-   font-family: 'Anton', sans-serif;
-    font-size: 45px;
-   transition: color 0.3s ease;
-  
+    font-family: 'Anton', sans-serif;
+    transition: color 0.3s ease;
 } 
 .conteudo-principal-sobre p{
     color: #202B38;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 24px;
+    font-size: 17px;
+    line-height: 1.5;
 }
+.quem-somos{
+    margin-bottom: 32px;
+}
+.quem-somos h2{
+    margin-bottom: 12px;
+    font-size: 45px;
+}
+.quem-somos p {
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+}
+.valores-sobre{
+    display: flex;
+}
+.valores-sobre > article{
+    flex: 1;
+    min-width: 0;
+    padding: 0 28px;
+}
+
+.titulo-valor{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+.titulo-valor img{
+    width: 52px;
+    height: 52px;
+    object-fit: contain;
+}
+.titulo-valor h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: #123b67;
+}
+.valores-sobre p{
+    font-size: 20px;   
+    line-height: 1.35;
+}
+
 /*RODAPE*/
 footer#rodape {
     border-top: solid 2px gray;
