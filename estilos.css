@@ -159,7 +159,49 @@ nav#menu a:hover {
     top: 120px;
     width: 60%;
 }
-.video{
+.video1 {
+     object-fit: cover;
+    position: relative;
+    margin-left: 65%;
+    top: -115px;
+    width: 30%;
+     display: flex;
+}
+.conteudo2{
+    flex-direction: row;
+    background-color:#a8b8c963;
+    align-items: flex-start;
+    padding: 50px;
+     height: 200%;
+     object-fit: cover;
+}
+.conteudo-principal2 {
+    width: 100%;
+
+    padding: 10px;
+    background-color: #EAF2F9;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #123b67b7;
+}
+.titulo-principal2 {
+    color:#123b67b7;
+   font-family: 'Anton', sans-serif;
+    font-size: 45px;
+   transition: color 0.3s ease;
+}
+
+.descricao-principal2 {
+    color: #202B38;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+.texto-principal2 {
+    position: relative;
+    margin-left: 3%;
+    top: 120px;
+    width: 60%;
+}
+.video2 {
      object-fit: cover;
     position: relative;
     margin-left: 65%;
@@ -196,12 +238,71 @@ table.tabela-produtos th {
     border-collapse: collapse;
     
 }
+
+/*SOBRE NÓS*/
+.banner-sobre{
+    background-size: cover;
+    height: 650px;
+      display: flex;
+    flex-direction: row;
+    background-color: #eaf2f9;
+    align-items: flex-start;
+    
+}
+
+.texto-sobre p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+        color: #123b67;
+}
+.texto-sobre h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+        color: #123b67;
+}
+
+.subtitulo-sobre{
+    font-size: 20px;
+    color: #123b67;
+}
+.descricao-sobre{
+    font-size: 15px;
+    color: #123b67;
+}
+.imagem-sobre{
+    position: relative;
+    margin-left: 54%;
+    top: 15%;
+    width: 40%;
+}
+.conteudo-sobre{
+    display: flex;
+    flex-direction: row;
+    background-color:#eaf2f9;
+    align-items: flex-start;
+    padding: 50px;
+     height: 200%;
+     object-fit: cover;
+}
+.conteudo-principal-sobre h2{
+    color:#123b67b7;
+   font-family: 'Anton', sans-serif;
+    font-size: 45px;
+   transition: color 0.3s ease;
+  
+} 
+.conteudo-principal-sobre p{
+    color: #202B38;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+}
+/*RODAPE*/
 footer#rodape {
     border-top: solid 2px gray;
     text-align: center;
     background-color: #EAF2F9;
     font-family: 'Josefin Sans', sans-serif;
-    color: #202B38;
+    color: #123b67;
     padding: 18px 20px;
 }
 .texto-rodape{
