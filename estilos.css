@@ -211,10 +211,31 @@ nav#menu a:hover {
 }
 
 /* Tabela de Produtos */
+.conteudo-tabela {
+    display: flex;
+    background-color: #EAF2F9;
+}
+.conteudo-tabela table {
+     margin-top: 2%;
+}
+.titulo-tabela {
+    font-family: 'Anton', sans-serif;
+    font-size: 45px;
+    color: #ffc928;
+    margin-bottom: 10px;
+}
+.descricao-tabela {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    color: #123b67;
+    margin-bottom: 20px;
+}
+
 table.tabela-produtos {
     position: relative;
     width: 40%;
     border-collapse: collapse;
+    margin-left: 5%;
 }
 caption.tabela-produtos {
     font-family: 'Anton', sans-serif;
@@ -231,11 +252,15 @@ table.tabela-produtos td {
     border: 3px solid black;
     padding: 10px;
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #123b67;
 }
 table.tabela-produtos th {
     border: 3px solid black;
     padding: 10px;
     border-collapse: collapse;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #123b67;
     
 }
 
@@ -249,7 +274,13 @@ table.tabela-produtos th {
     align-items: flex-start;
     
 }
-
+.texto-sobre{
+    position: absolute;
+    top: 420px;
+    left: 21.5%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
 .texto-sobre p {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 25px;
@@ -274,6 +305,7 @@ table.tabela-produtos th {
     margin-left: 54%;
     top: 15%;
     width: 40%;
+    border-radius: 20px;
 }
 .conteudo-sobre{
     display: flex;
@@ -290,11 +322,12 @@ table.tabela-produtos th {
     color:#123b67b7;
     font-family: 'Anton', sans-serif;
     transition: color 0.3s ease;
+    font-size: 45px;
 } 
 .conteudo-principal-sobre p{
     color: #202B38;
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 17px;
+    font-size: 24px;
     line-height: 1.5;
 }
 .quem-somos{
