@@ -235,7 +235,7 @@ table.tabela-produtos {
     position: relative;
     width: 40%;
     border-collapse: collapse;
-    margin-left: 5%;
+    margin: 0 auto;
 }
 caption.tabela-produtos {
     font-family: 'Anton', sans-serif;
@@ -389,4 +389,50 @@ footer#rodape {
     margin: 0;
     line-height: 1.9;
     letter-spacing: 0.3px;
+}
+/*localização*/
+    h1.titulo-loc{
+        text-align: center;
+        color: #ffc928;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 30pt;
+    }
+    span.texto-loc p{
+        font-family: 'Josefin Sans', sans-serif;
+        color: #ffc928;
+        font-size: 18pt;
+        text-align: center;
+        background-color: #123b67;
+    }
+    h2.titulo-horarios{
+        text-align: center;
+        font-size: 30pt;
+        font-family: 'Josefin Sans', sans-serif;
+        color: #123b67;
+    }
+    table.tabela-horarios {
+        font-size: 25px;
+        text-align: center;
+        width: 100%;
+        background-color: #123b67;
+    }
+    h2.titulo-perguntas{
+        text-align: center;
+        font-size: 30pt;
+        font-family: 'Josefin Sans', sans-serif ;
+        color:  #123b67;
+    }
+section.secao  {
+    background-color: #123b67;
+}
+section.secao div{
+    text-align: center;
+    font-size: 25px;
+    color: #ffc928 ;
+
+}
+table.tabela-horarios td {
+    border: 3px solid black;
+    padding: 10px;
+    color: #ffc928;
 }
