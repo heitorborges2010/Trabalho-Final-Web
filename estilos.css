@@ -109,7 +109,7 @@ nav#menu a:hover {
 }
 .banner{
     background-size: cover;
-    height: 650px;
+    height: 720px;
       display: flex;
     flex-direction: row;
     background-color: #123b67;
@@ -267,10 +267,10 @@ table.tabela-produtos th {
 /*SOBRE NÓS*/
 .banner-sobre{
     background-size: cover;
-    height: 650px;
+    height:720px;
       display: flex;
     flex-direction: row;
-    background-color: #eaf2f9;
+    background-image: url(imagens/fundo-equipe.jpg );
     align-items: flex-start;
     
 }
@@ -302,9 +302,9 @@ table.tabela-produtos th {
 }
 .imagem-sobre{
     position: relative;
-    margin-left: 54%;
+    margin-left: 60%;
     top: 15%;
-    width: 40%;
+    width: 25%;
     border-radius: 20px;
 }
 .conteudo-sobre{
@@ -371,6 +371,55 @@ table.tabela-produtos th {
     font-size: 20px;   
     line-height: 1.35;
 }
+
+.escolha-sobre{
+    background-color: #123b67;
+    padding: 56px 8%;
+}
+.conteudo-escolha{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.conteudo-escolha > h2{
+    color: #ffc928;
+    font-family: 'Anton', sans-serif;
+    font-size: 42px;
+    margin-bottom: 8px;
+}
+.introducao-escolha{
+    color: #EAF2F9;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 28px;
+}
+.motivos-escolha{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+}
+.motivo-escolha{
+    border-top: 3px solid #ffc928;
+    padding-top: 16px;
+}
+.numero-motivo{
+    color: #ffc928;
+    font-family: 'Anton', sans-serif;
+    font-size: 24px;
+}
+.motivo-escolha h3{
+    color: #EAF2F9;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 21px;
+    margin: 8px 0;
+}
+.motivo-escolha p{
+    color: #EAF2F9;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
 
 /*RODAPE*/
 footer#rodape {
